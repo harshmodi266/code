@@ -13,10 +13,11 @@ if ($number == 0) {
 <?php
 $start = 1;
 $end = 20;
-echo = "Evan Number Between $start to $end are = ";
+echo "Evan Number Between $start to $end are: ";
 for($i = $start; $i <= $end; $i++){
-    if($i % 2 == 0){
+    if($i % 2 == 0){ // if selecter say odd number then chenge logic only if($i % 2 != 0)
         echo $i . " ";
     }
 }
 ?>
+
